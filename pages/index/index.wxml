@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<form bindsubmit="save">
+  <view class="input">
+    <label for="nickname">用户名：</label>
+    <input name="username" bindinput='getValue' data-type="username" />
+  </view>
+  <view class="input">
+    <label for="password">密码：</label>
+    <input type="safe-password" password name="password" bindinput='getValue' data-type="password" />
+  </view>
+  <button formType="submit" class="bottom">确认</button>
+</form>

@@ -1,0 +1,16 @@
+/**index.wxss**/
+view.input {
+  display: flex;
+  align-items: center;
+  margin: 10px 5px;
+}
+
+label {
+  width: 70px;
+}
+
+input {
+  border-radius: 10px;
+  flex: 1;
+  border: 1px solid #ccc;
+}
